@@ -1,15 +1,36 @@
 /* Add your code in each class */
 body {
+  background-color: rgb(36, 55, 138);
 }
 .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
+
 .movie-card {
+  position: relative;
+  text-align: center;
+  height: 100px;
+  width: 50%;
+  border-radius: 20px;
+  padding: 50px;
 }
+
 .movie-image {
+  width: 100%;
 }
+
 .movie-details-container {
+  width: 100%;
+  bottom: 0px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 1;
 }
 .descriptions {
+  color: white;
 }
 
 /*A gift from us!*/

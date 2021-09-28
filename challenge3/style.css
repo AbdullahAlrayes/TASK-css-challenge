@@ -1,7 +1,17 @@
 /* Add your code in each class */
 .container {
+  background-color: teal;
+  min-height: 10em;
+  height: 300px;
+  width: 400px;
+  overflow: auto;
 }
+
 .head {
+  position: sticky;
+  text-align: center;
+  background-color: wheat;
+  padding: 25px;
 }
 
 .row {

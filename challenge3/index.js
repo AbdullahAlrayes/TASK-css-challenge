@@ -12,8 +12,8 @@ const listComponent = (person) => `
  * This function will render the list of id "rows" with the array defined in people.js
  */
 function renderList() {
-  document.getElementById("rows").innerHTML = people
+  document.getElementById('list').innerHTML = people
     .map(listComponent)
-    .join("\n");
+    .join('\n');
 }
 renderList();

@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-picture {
+  background-image: url('/assets/pokemon-bg.jpg');
+}
+
+.card {
+  margin-top: 30%;
+  margin-left: 30%;
+  margin-right: 30%;
+  text-align: center;
+  display: block;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  min-height: 250px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.title {
+  text-align: center;
+}
+.image {
+  width: 30%;
+  height: 30%;
+  border-radius: 50%;
+}
